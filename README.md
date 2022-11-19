@@ -86,7 +86,7 @@ const greet = {
 }
 ```
 
-Accessing values
+#### Accessing values
 
 Dot notation
 ```
@@ -115,7 +115,7 @@ delete greet.age;
 console.log(greet.age) => undefined
 ```
 
-Other object methods:
+#### Other object methods:
 
 - Object.values()
 ```
