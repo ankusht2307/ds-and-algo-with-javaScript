@@ -74,7 +74,7 @@ Other array methods:
   dot notation or bracket notation.
 - An object is not an iterable. We can't use it with a for loop.
 
-Common object operations
+#### Common object operations
 
 ```
 const greet = {
@@ -147,7 +147,59 @@ console.log(Object.entries(greet)) => [
 - Object.keys() - `O(n)`
 - Object.entries() - `O(n)`
 
-### Sets
+### Set
+- A set is a data structure that can hold a collection of values. The values
+  however must be unique.
+- Set can contain a mix of different data types. You can store strings, booleans,
+  numbers or even objects all in the same set.
+- Sets are dynamically sized. You don't have to declare the size of a set before
+  creating it.
+- Sets do not maintain insertion order.
+- Sets are iterables. They can be used with for of loop.
+
+### Set vs Array
+- Arrays can contain duplicate values whereas Sets cannot.
+- Insertion order is maintained in arrays but it is not the
+  case with sets.
+- Searhing and deleting and element in the set is faster compared
+  to arrays.
+
+#### Common set operation
+
+```
+const set = new Set([1, 2, 3, 4, 5]);
+```
+
+#### Accessing set values
+
+```
+console.log(set.has(1)) => true
+```
+
+```
+for (const item of set) {
+  console.log(item)
+}
+```
+
+#### Deleting values
+
+```
+console.log(set.size) => 5
+
+set.delete(1)
+
+console.log(set.size) => 4
+```
+
+```
+console.log(set.size) => 4
+
+set.clear()
+
+console.log(set.size) => 0
+```
+
 ### Maps
 
 ## Custom Data Structures
