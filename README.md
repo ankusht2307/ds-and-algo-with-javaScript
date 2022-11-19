@@ -299,7 +299,7 @@ console.log(map.size) => 0
 ### Queues
 
 -  The queue data structure is a sequential collection of elements that follows the principle of
-`First In First Out` (LIFO).
+`First In First Out` (FIFO).
 - The first element inserted into the queue is the first element to be removed.
 - A queue of people. People enter the queue at one end (rear/tail) and leave the
   queue from the other end (front/head).
