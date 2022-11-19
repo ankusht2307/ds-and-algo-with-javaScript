@@ -180,6 +180,10 @@ console.log(set.has(1)) => true
 for (const item of set) {
   console.log(item)
 }
+
+Output: 1
+        2
+        3
 ```
 
 #### Deleting values
