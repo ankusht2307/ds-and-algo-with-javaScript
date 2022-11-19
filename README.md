@@ -1,15 +1,53 @@
 # dataStructures-with-javaScript
 
-## BuiltIn Data Structures
+## Built In Data Structures
 
 ### Array
 - An array is a data structure that can hold a collection of values.
-- Arrays can contain a mix of different types. you can store strings, booleans,
+- Arrays can contain a mix of different data types. you can store strings, booleans,
   numbers or even objects all in the same array.
 - Array are resizable. You don't have to declare the size of an array before 
   creating it.
 - JavaScript arrays are zero-indexed and the insertion order is maintained.
 - Arrays are iterables. They can be used with a for of loop.
+
+#### Example
+
+Array can hold all data types.
+
+```bash
+const values = ['a', 1, true, false, null, undefined, 0, '', ' '];
+```
+
+Common Array operations.
+```
+const superHeroes = ['Thor', 'Ironman', 'Superman'];
+```
+
+Add element at the begining of the array.
+
+```
+superHeroes.unshift('Spiderman') => ['Spiderman', 'Thor', 'Ironman', 'Superman']
+```
+
+Delete element from front of the array.
+
+```
+superHeroes.shift() => ['Thor', 'Ironman', 'Superman']
+```
+
+Add element at the end of the array.
+
+```
+superHeroes.push('Captain America') => ['Thor', 'Ironman', 'Superman', 'Captain America']
+```
+
+Delete element from end of the array.
+
+```
+superHeroes.pop() => ['Spiderman', 'Thor', 'Ironman']
+```
+
 ### Objects
 ### Sets
 ### Maps
