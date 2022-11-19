@@ -287,7 +287,7 @@ console.log(map.size) => 0
 
 - Typically Stack is great when we want to trace back steps.
 
-##### Some examples
+##### Some examples:
 - Browser history tracking.
 - Undo operation when typing.
 - Expression conversion - Infix to Postfix.
