@@ -48,6 +48,25 @@ Delete element from end of the array.
 superHeroes.pop() => ['Spiderman', 'Thor', 'Ironman']
 ```
 
+Other array methods:
+
+- map
+- reduce
+- filter
+- concat
+- slice
+- spice
+
+#### Array Big O time complexity 
+
+- Insert / Remove from end - `O(1)`
+- Insert / Remove from begining - `O(n)`
+- Access elememt - `O(1)`
+- Search - `O(n)`
+- Push / Pop - `O(1)`
+- Shift / Unshift / Concat / Slice / Splice - `O(n)`
+- forEach / map / filter / reduce - `O(n)`
+
 ### Objects
 ### Sets
 ### Maps
