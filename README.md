@@ -270,6 +270,29 @@ console.log(map.size) => 0
 ## Custom Data Structures
 
 ### Stacks
+
+- The stack data structure is a sequential collection of elements that follows the principle of
+  `Last In First Out` (LIFO).
+- The last element inserted into the is the first element to be removed.
+- A stack of plates. The last plate placed on the top of the stack is also the first plate removed
+  from the stack.
+- Stack is an abstract data type. It is defined by its behaviour rather than being a mathematical modal.
+- The Stack data structure supports two main operations.
+  - Push, which adds an element to the collection.
+  - Pop, which removes the most recently added element from the collection.
+
+![Stack](https://cdn.programiz.com/sites/tutorial2program/files/stack.png)
+
+#### Stack Usage
+
+- Typically Stack is great when we want to trace back steps.
+
+##### Some examples
+- Browser history tracking.
+- Undo operation when typing.
+- Expression conversion - Infix to Postfix.
+- Call Stack in JavaScript runtime.
+
 ### Queues
 ### Circular Queue
 ### Linked List
