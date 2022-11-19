@@ -287,11 +287,14 @@ console.log(map.size) => 0
 
 - Typically Stack is great when we want to trace back steps.
 
-##### Some examples:
+#### Some examples:
 - Browser history tracking.
 - Undo operation when typing.
 - Expression conversion - Infix to Postfix.
 - Call Stack in JavaScript runtime.
+
+#### Custom Implementation
+- [Stack](https://github.com/ankusht2307/dataStructures-with-javaScript/blob/main/Stack/stack.js)
 
 ### Queues
 ### Circular Queue
