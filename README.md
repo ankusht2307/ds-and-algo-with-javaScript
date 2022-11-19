@@ -297,6 +297,34 @@ console.log(map.size) => 0
 - [Stack](https://github.com/ankusht2307/dataStructures-with-javaScript/blob/main/Stack/stack.js)
 
 ### Queues
+
+-  The queue data structure is a sequential collection of elements that follows the principle of
+`First In First Out` (LIFO).
+- The first element inserted into the queue is the first element to be removed.
+- A queue of people. People enter the queue at one end (rear/tail) and leave the
+  queue from the other end (front/head).
+- Queue is an abstract data type. It is defined by its behaviour rather then being a mathematical
+  model.
+- The Queue data structure supports two main operations:
+  - Enqueue, which adds an element to the rear/tail of the collection.
+  - Dequeue, which removes an element from the front/head of the collection.
+
+![Queue](https://media.geeksforgeeks.org/wp-content/uploads/20220816162225/Queue.png)
+
+### Queue Usage
+
+- Typically queue is used when we want to process data in orderly fashion.
+
+### Some Examples:
+
+- Printers
+- CPU task scheduling
+- Callback queue in JavaScript runtime
+
+#### Custom Implementation
+- [Queue]()
+
+
 ### Circular Queue
 ### Linked List
 ### Hash Table
