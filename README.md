@@ -322,7 +322,7 @@ console.log(map.size) => 0
 - Callback queue in JavaScript runtime
 
 #### Custom Implementation
-- [Queue]()
+- [Queue](https://github.com/ankusht2307/dataStructures-with-javaScript/blob/main/Queue/queue.js)
 
 
 ### Circular Queue
