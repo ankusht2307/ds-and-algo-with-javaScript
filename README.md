@@ -206,6 +206,67 @@ console.log(set.size) => 0
 
 ### Maps
 
+- A map is an unordered collection of key-value pairs. Both keys and values
+  can be of any data type.
+- To retrieve a value, you can use the corresponding key.
+- Maps are iterables. They can be used with for of loop.
+
+### Object vs Map
+
+- Objects are unordered whereas maps are ordered.
+- Keys is onjects can only be string or symbol whereas is maps, they can be of any type.
+- An object has a prototype and may contain a few default keys which may collide with your
+  own keys if you're not careful. A map on the other hand does not contain any keys by default.
+- Objects are not iterables whereas maps are iterables.
+- The number of items in an object must be determined manually whereas it is readily available
+  with the size property in a map.
+- Apart from storing data, you can attach functionality to an object whereas maps are restricted
+  just storing data.
+
+#### Common Map operations
+
+```
+const map = new Map([[1,2], ['key', 'value'], [null, undefined], [true, false], ['1',2]])
+```
+
+#### Accessing Map values
+
+```
+console.log(map.has(1)) => true
+```
+
+```
+for (const [key, value] of map) {
+  console.log(`${key}: ${value}`);
+}
+
+Output:
+
+1: 2
+key: value
+null: undefined
+true: false
+1: 2
+```
+
+#### Deleting values
+
+```
+console.log(map.size) => 5
+
+map.delete(1)
+
+console.log(map.size) => 4
+```
+
+```
+console.log(map.size) => 4
+
+map.clear()
+
+console.log(map.size) => 0
+```
+
 ## Custom Data Structures
 
 ### Stacks
