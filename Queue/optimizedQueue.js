@@ -8,42 +8,49 @@
  * print(): visualize the elements in the queue.
  */
 
-class Queue {
+class OptimizedQueue {
   constructor() {
-    this.items = [];
+    this.items = {};
+    this.front = 0;
+    this.rear = 0;
   }
 
   enqueue(element) {
-    this.items.push(element);
+    this.items[this.rear] = element;
+    this.rear++;
   }
 
   dequeue() {
-    return this.items.shift();
+    const item = this.items[this.front];
+    delete this.items[this.front];
+    this.front++;
+    return item;
   }
 
   peek() {
     if (!this.isEmpty()) {
-      return this.items[0];
+      return this.items[this.front];
     }
     return null;
   }
 
   isEmpty() {
-    return this.items.length === 0;
+    return this.rear - this.front === 0;
   }
 
   size() {
-    return this.items.length;
+    return this.rear - this.front;
   }
 
   print() {
-    console.log(this.items.toString());
+    console.log(JSON.stringify(this.items));
   }
 }
 
-const queue = new Queue();
+const queue = new OptimizedQueue();
 
 console.log(queue.peek());
+console.log(queue.isEmpty());
 queue.enqueue(10);
 queue.enqueue(5);
 queue.enqueue(23);
