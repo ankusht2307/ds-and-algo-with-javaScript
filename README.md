@@ -323,6 +323,7 @@ console.log(map.size) => 0
 
 #### Custom Implementation
 - [Queue](https://github.com/ankusht2307/dataStructures-with-javaScript/blob/main/Queue/queue.js)
+- [Optimized Queue](https://github.com/ankusht2307/dataStructures-with-javaScript/blob/main/Queue/optimizedQueue.js)
 
 
 ### Circular Queue
