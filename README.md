@@ -350,6 +350,24 @@ console.log(map.size) => 0
 - [Circular Queue](https://github.com/ankusht2307/dataStructures-with-javaScript/blob/main/Queue/circularQueue.js)
 
 ### Linked List
+
+- A Linked List is a linear data structure that includes a series of connected nodes.
+- Each node consists of a data value and a pointer that points to the next node.
+- The list elements can be easily inserted or removed without reallocation or reorganisation
+  of the entire structure.
+- Random access of elements is not feasible and accessing an element has linear time complexity.
+- The linked list data structure supports three main operations:
+  - Insertion - to add am element at the begining, end or at a given index is the list.
+  - Deletion - to remove an item given its index or value.
+  - Search - to find an element given its value.
+
+![LinkedList](https://media.geeksforgeeks.org/wp-content/uploads/20220816144425/LLdrawio.png)
+
+### Linked List usage
+
+- All aplications of both stacks and queues are applications of linked lists.
+- Image viewer
+
 ### Hash Table
 ### Trees
 ### Graphs
