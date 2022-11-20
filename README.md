@@ -345,6 +345,10 @@ console.log(map.size) => 0
 - Streaming data
 - Traffic lights
 
+#### Custom Implementation
+
+- [Circular Queue](https://github.com/ankusht2307/dataStructures-with-javaScript/blob/main/Queue/circularQueue.js)
+
 ### Linked List
 ### Hash Table
 ### Trees
