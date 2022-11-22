@@ -369,7 +369,6 @@ console.log(map.size) => 0
 - Image viewer
 
 
-Add todos
 ### Hash Table
 ### Trees
 ### Graphs
