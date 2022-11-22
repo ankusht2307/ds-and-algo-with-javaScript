@@ -368,6 +368,8 @@ console.log(map.size) => 0
 - All aplications of both stacks and queues are applications of linked lists.
 - Image viewer
 
+
+Add todos
 ### Hash Table
 ### Trees
 ### Graphs
