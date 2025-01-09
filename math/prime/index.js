@@ -18,6 +18,8 @@ console.log(isPrime(4));
 console.log(isPrime(7));
 console.log(isPrime(5));
 
+// BIG-O: O(n)
+
 function isPrimeOptimized(num) {
   if (num < 2) return false;
 
@@ -28,6 +30,8 @@ function isPrimeOptimized(num) {
 
   return true;
 }
+
+// BIG-O: O(sqrt(n))
 
 console.log("==========optimized");
 console.log(isPrimeOptimized(1));
