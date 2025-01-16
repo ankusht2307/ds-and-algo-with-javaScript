@@ -214,7 +214,7 @@ console.log(set.size) => 0
 ### Object vs Map
 
 - Objects are unordered whereas maps are ordered.
-- Keys is onjects can only be string or symbol whereas is maps, they can be of any type.
+- Keys is onjects can only be string or symbol whereas in maps, they can be of any type.
 - An object has a prototype and may contain a few default keys which may collide with your
   own keys if you're not careful. A map on the other hand does not contain any keys by default.
 - Objects are not iterables whereas maps are iterables.
