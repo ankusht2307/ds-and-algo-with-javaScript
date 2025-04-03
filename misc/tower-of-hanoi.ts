@@ -23,3 +23,5 @@ const towerOfHanoi = (
 };
 
 towerOfHanoi(3, "A", "B", "C");
+
+// Big O: 2^n
