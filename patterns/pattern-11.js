@@ -1,6 +1,5 @@
 /**
- * Problem Statement:
- * create a similar pattern
+ * Problem Statement: Create a similar pattern
  *
  *      1      1
  *      12    21
@@ -9,13 +8,13 @@
  *
  */
 
-const createPattern = (nRows) => {
-  for (let rows = 1; rows <= nRows; rows++) {
+const createPattern = (n) => {
+  for (let rows = 1; rows <= n; rows++) {
     let string = "";
     for (let j = 1; j <= rows; j++) {
       string += `${j} `;
     }
-    for (let k = 1; k <= 2 * nRows - 2 * rows; k++) {
+    for (let k = 1; k <= 2 * n - 2 * rows; k++) {
       string += "  ";
     }
     for (let l = rows; l >= 1; l--) {

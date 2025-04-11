@@ -8,12 +8,12 @@
  *
  */
 
-const createPattern = (nRows) => {
-  for (let row = 1; row <= nRows; row++) {
+const createPattern = (n) => {
+  for (let row = 1; row <= n; row++) {
     let string = "";
 
     // spaces
-    for (let i = nRows - row; i > 0; i--) {
+    for (let i = n - row; i > 0; i--) {
       string += "  ";
     }
 
@@ -29,7 +29,7 @@ const createPattern = (nRows) => {
     }
 
     // spaces
-    for (let j = nRows - row; j > 0; j--) {
+    for (let j = n - row; j > 0; j--) {
       string += " ";
     }
 

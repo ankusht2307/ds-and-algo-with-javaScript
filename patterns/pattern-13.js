@@ -1,6 +1,5 @@
 /**
- * Problem Statement:
- * create a similar pattern
+ * Problem Statement: Create a similar pattern
  *
  *      A
  *      A B
@@ -10,8 +9,8 @@
  *
  */
 
-const createPattern = (nRows) => {
-  for (let row = 1; row <= nRows; row++) {
+const createPattern = (n) => {
+  for (let row = 1; row <= n; row++) {
     let string = "";
     for (let col = 1; col <= row; col++) {
       string += `${String.fromCharCode(col + 64)} `;

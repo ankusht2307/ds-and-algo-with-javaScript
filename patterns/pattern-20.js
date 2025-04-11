@@ -8,11 +8,11 @@
  *
  */
 
-const createPattern = (nRows) => {
-  for (let row = 0; row < nRows; row++) {
+const createPattern = (n) => {
+  for (let row = 0; row < n; row++) {
     let string = "";
-    for (let col = 0; col < nRows; col++) {
-      if (row === 0 || row === nRows - 1 || col === 0 || col === nRows - 1) {
+    for (let col = 0; col < n; col++) {
+      if (row === 0 || row === n - 1 || col === 0 || col === n - 1) {
         string += "*";
       } else {
         string += " ";

@@ -13,13 +13,13 @@
  *
  */
 
-const createPattern = (nRows) => {
+const createPattern = (n) => {
   let stars = 1;
-  for (let row = 1; row <= nRows; row++) {
+  for (let row = 1; row <= n; row++) {
     let string = "";
-    let space = nRows - 2 * row + 1;
-    if (Math.ceil(nRows / 2) < row) {
-      space = 2 * row - nRows - 1;
+    let space = n - 2 * row + 1;
+    if (Math.ceil(n / 2) < row) {
+      space = 2 * row - n - 1;
     }
 
     // star
@@ -37,7 +37,7 @@ const createPattern = (nRows) => {
       string += "*";
     }
 
-    if (Math.ceil(nRows / 2) <= row) {
+    if (Math.ceil(n / 2) <= row) {
       stars -= 1;
     } else {
       stars += 1;

@@ -10,10 +10,10 @@
  */
 
 
-const createPattern = (nRows) => {
-  for (let row = 1; row <= nRows; row++) {
-    if (nRows === row) break;
-    let char = nRows - row;
+const createPattern = (n) => {
+  for (let row = 1; row <= n; row++) {
+    if (n === row) break;
+    let char = n - row;
     let string = "";
     for (let col = 1; col <= row; col++) {
       string += `${String.fromCharCode(64 + char)}`;

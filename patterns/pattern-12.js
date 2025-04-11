@@ -1,6 +1,5 @@
 /**
- * Problem Statement:
- * create a similar pattern
+ * Problem Statement: Create a similar pattern
  *
  *      1
  *      2 3
@@ -10,9 +9,9 @@
  *
  */
 
-const createPattern = (nRows) => {
+const createPattern = (n) => {
   let lastPrintedValue = 0;
-  for (let row = 1; row <= nRows; row++) {
+  for (let row = 1; row <= n; row++) {
     let string = "";
     for (let col = 1; col <= row; col++) {
       lastPrintedValue += 1;

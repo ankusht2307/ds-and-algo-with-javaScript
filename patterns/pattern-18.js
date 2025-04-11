@@ -14,8 +14,8 @@
  *
  */
 
-const printUpperPattern = (nRows) => {
-  for (let row = nRows; row > 0; row--) {
+const printUpperPattern = (n) => {
+  for (let row = n; row > 0; row--) {
     let string = "";
     // star
     for (let i = row; i > 0; i--) {
@@ -23,7 +23,7 @@ const printUpperPattern = (nRows) => {
     }
 
     // space
-    for (let j = 0; j < 2 * nRows - 2 * row; j++) {
+    for (let j = 0; j < 2 * n - 2 * row; j++) {
       string += " ";
     }
 
@@ -36,8 +36,8 @@ const printUpperPattern = (nRows) => {
   }
 };
 
-const printLowerPattern = (nRows) => {
-  for (let row = 1; row <= nRows; row++) {
+const printLowerPattern = (n) => {
+  for (let row = 1; row <= n; row++) {
     let string = "";
     // star
     for (let i = 1; i <= row; i++) {
@@ -45,7 +45,7 @@ const printLowerPattern = (nRows) => {
     }
 
     // space
-    for (let j = 1; j <= 2 * nRows - 2 * row; j++) {
+    for (let j = 1; j <= 2 * n - 2 * row; j++) {
       string += " ";
     }
 
@@ -58,9 +58,9 @@ const printLowerPattern = (nRows) => {
   }
 };
 
-const createPattern = (nRows) => {
-  printUpperPattern(nRows);
-  printLowerPattern(nRows);
+const createPattern = (n) => {
+  printUpperPattern(n);
+  printLowerPattern(n);
 };
 
 createPattern(5);

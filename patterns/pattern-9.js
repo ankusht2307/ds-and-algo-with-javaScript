@@ -1,6 +1,5 @@
 /**
- * Problem Statement:
- * create a similar pattern
+ * Problem Statement: Create a similar pattern
  *
  *      *
  *      * *
