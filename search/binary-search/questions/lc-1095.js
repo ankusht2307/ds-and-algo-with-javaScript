@@ -79,7 +79,7 @@ const findInMountain = (arr, target) => {
   return elementIndex;
 };
 
-const arr = [1, 2, 3, 4, 5, 3, 1];
+const arr = [1, 2, 4, 5, 1];
 const target = 3;
 
 const elementIndex = findInMountain(arr, target);
