@@ -25,3 +25,41 @@
  * Output: -1
  *
  */
+
+const search = (arr, target) => {
+  let start = 0;
+  let end = arr.length - 1;
+
+  while (start <= end) {
+    let mid = Math.floor((start + end) / 2);
+
+    if (arr[mid] === target) return mid;
+
+    if (arr[start] <= arr[mid]) {
+      // search in LHS
+      if (arr[start] <= target && target <= arr[mid]) {
+        // target lies in LHS
+        end = mid - 1;
+      } else {
+        // target lies in RHS
+        start = mid + 1;
+      }
+    } else {
+      // search in RHS
+      if (arr[mid] <= target && target <= arr[end]) {
+        // target lies in RHS
+        start = mid + 1;
+      } else {
+        end = mid - 1;
+      }
+    }
+  }
+
+  return -1;
+};
+
+const arr = [4, 5, 6, 7, 0, 1, 2, 3];
+const target = 40;
+
+const element = search(arr, target);
+console.log(element);
