@@ -2,6 +2,8 @@
  * Problem statement: Given an array of integer elements, sort the array
  * elements in acsending order.
  * [4, -1, 7, 2, 19] => [-1, 2, 4, 7, 19]
+ * 
+ * This sorting tyoe is also known as sinking sort or exchange sort.
  */
 
 const bubbleSort = (arr) => {
